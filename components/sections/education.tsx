@@ -20,7 +20,7 @@ const education = [
   {
     degree: "Postgraduate in Cloud Computing Architecture",
     institution: "Estácio",
-    period: "2024 - 2025",
+    period: "2024",
     description: "Cloud architecture, project design, AWS, and Azure.",
   },
   {
