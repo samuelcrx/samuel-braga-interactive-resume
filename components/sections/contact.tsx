@@ -15,13 +15,13 @@ const contactLinks = [
     icon: Github,
     label: "GitHub",
     value: "GitHub",
-    href: "https://github.com/samuelbraga",
+    href: "https://github.com/samuelcrx",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
     value: "LinkedIn",
-    href: "https://linkedin.com/in/samuelbraga",
+    href: "https://www.linkedin.com/in/samuel-s-braga",
   },
   {
     icon: MapPin,
@@ -37,7 +37,7 @@ export const ContactSection = () => {
   return (
     <section id="contact" className="py-24 md:py-32 bg-background-secondary relative">
       <div className="container">
-        <div ref={ref} className="max-w-4xl mx-auto text-center">
+        <div ref={ref} className="max-w-5xl mx-auto text-center">
           <span
             className={cn(
               "text-primary font-mono text-sm tracking-wider mb-4 block transition-all duration-700",

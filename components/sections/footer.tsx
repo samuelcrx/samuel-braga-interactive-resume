@@ -11,9 +11,9 @@ export const Footer = () => {
             </span>
           </div>
 
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-4 bg-red-500/10 px-4 py-2 rounded-full">
             <a
-              href="https://github.com/samuelbraga"
+              href="https://github.com/samuelcrx"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub Profile"
@@ -22,7 +22,7 @@ export const Footer = () => {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/samuelbraga"
+              href="https://www.linkedin.com/in/samuel-s-braga"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn Profile"
