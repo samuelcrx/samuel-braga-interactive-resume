@@ -11,11 +11,12 @@ interface MobileMenuProps {
 }
 
 const menuItems = [
-  { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
-  { name: "Experience", href: "#experience" },
-  { name: "Projects", href: "#projects" },
-  { name: "Contact", href: "#contact" },
+  { name: "About", href: "/#about" },
+  { name: "Skills", href: "/#skills" },
+  { name: "Experience", href: "/#experience" },
+  { name: "Projects", href: "/#projects" },
+  { name: "Services", href: "/services" },
+  { name: "Contact", href: "/#contact" },
 ];
 
 export const MobileMenu = ({ className }: MobileMenuProps) => {
@@ -73,7 +74,7 @@ export const MobileMenu = ({ className }: MobileMenuProps) => {
 
             <div className="mt-6">
               <Link
-                href="#contact"
+                href="/#contact"
                 onClick={handleLinkClick}
                 className="inline-flex items-center justify-center w-full text-base font-medium px-6 py-3 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
               >

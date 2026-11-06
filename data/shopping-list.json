@@ -1,0 +1,141 @@
+{
+  "categories": [
+    {
+      "id": "geladeira-hortifruti-congelados",
+      "title": "Geladeira, hortifruti e congelados",
+      "items": [
+        {
+          "id": "margarina-light",
+          "name": "Margarina light",
+          "checked": false
+        },
+        {
+          "id": "requeijao-light",
+          "name": "Requeijão light",
+          "checked": false
+        },
+        {
+          "id": "limao",
+          "name": "Limão",
+          "checked": false
+        },
+        {
+          "id": "cenoura",
+          "name": "Cenoura",
+          "checked": false
+        },
+        {
+          "id": "cebola",
+          "name": "Cebola",
+          "checked": false
+        },
+        {
+          "id": "tomate",
+          "name": "Tomate",
+          "checked": false
+        },
+        {
+          "id": "alface",
+          "name": "Alface",
+          "checked": false
+        },
+        {
+          "id": "batata",
+          "name": "Batata",
+          "checked": false
+        },
+        {
+          "id": "frutas",
+          "name": "Frutas (a escolher)",
+          "checked": false
+        },
+        {
+          "id": "mucarela",
+          "name": "Muçarela (frios, se for comprar)",
+          "checked": false
+        },
+        {
+          "id": "presunto",
+          "name": "Presunto (frios, se for comprar)",
+          "checked": false
+        },
+        {
+          "id": "ovos",
+          "name": "Ovos",
+          "checked": false
+        },
+        {
+          "id": "nuggets-infantil",
+          "name": "Nuggets infantil",
+          "checked": false
+        },
+        {
+          "id": "batata-congelada",
+          "name": "Batata congelada",
+          "checked": false
+        },
+        {
+          "id": "sorvete-zero",
+          "name": "Sorvete zero",
+          "checked": false
+        },
+        {
+          "id": "frango",
+          "name": "Frango",
+          "checked": false
+        },
+        {
+          "id": "carne",
+          "name": "Carne",
+          "checked": false
+        },
+        {
+          "id": "coca-cola-zero",
+          "name": "Coca-Cola Zero",
+          "checked": false
+        },
+        {
+          "id": "refrigerante-zero-outros",
+          "name": "Refrigerante zero (outros)",
+          "checked": false
+        },
+        {
+          "id": "iogurte-zero",
+          "name": "Iogurte zero",
+          "checked": false
+        },
+        {
+          "id": "polenguinho-light",
+          "name": "Polenguinho light",
+          "checked": false
+        },
+        {
+          "id": "cream-cheese-light",
+          "name": "Cream cheese light",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "limpeza-higiene",
+      "title": "Limpeza e higiene",
+      "items": [
+        {
+          "id": "pinho-sol",
+          "name": "Pinho Sol",
+          "checked": false
+        },
+        {
+          "id": "sabonete-liquido-maos",
+          "name": "Sabonete líquido para mãos",
+          "checked": false
+        },
+        {
+          "id": "sabao-liquido-roupas",
+          "name": "Sabão líquido para roupas (repor reserva)",
+          "checked": false
+        }
+      ]
+    }
+  ]
+}
