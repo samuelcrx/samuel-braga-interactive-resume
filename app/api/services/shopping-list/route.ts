@@ -1,9 +1,10 @@
-import { NextResponse } from "next/server";
 import {
   readShoppingList,
   shoppingListSchema,
+  StorageNotConfiguredError,
   writeShoppingList,
 } from "@/lib/shopping-list";
+import { NextResponse } from "next/server";
 
 export const dynamic = "force-dynamic";
 
@@ -31,7 +32,10 @@ export async function PUT(request: Request) {
   try {
     await writeShoppingList(parsed.data);
     return NextResponse.json({ ok: true });
-  } catch {
+  } catch (error) {
+    if (error instanceof StorageNotConfiguredError) {
+      return NextResponse.json({ error: error.message }, { status: 503 });
+    }
     return NextResponse.json({ error: "Failed to save list" }, { status: 500 });
   }
 }
